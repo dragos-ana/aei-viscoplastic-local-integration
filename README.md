@@ -12,7 +12,7 @@ The repository consists of 6 directories containing data from the monotonic load
 
 
 $$
-\dot{\varepsilon} \in \{ 0.001 \, \text{s}^{-1}, 1 \, \mathrm{s}^{-1}, 1000 \, \mathrm{s}^{-1}  \}.
+\dot{\varepsilon} \in \{ 0.001 \ \text{s}^{-1}, 1 \ \mathrm{s}^{-1}, 1000 \ \mathrm{s}^{-1}  \}.
 $$
 
 Inside each directory, the data is split according to the loading conditions applied: uniaxial tension, plane stress shear, and tension--shear (combined-loading).
@@ -27,6 +27,6 @@ Each of these subdirectories contains data for each of the initialization strate
 
 At the corresponding directory level, each method directory contains data for the computational efficiency and for the numerical robustness studies. 
 
-The naming of input files  `*_0.4C.yaml` is based on the utilized time step, where `*d*` stands for *dot*, i.e., `0d001s.4C.yaml` corresponds to the input file employing $\Delta t = 0.001 \, \mathrm{s}$. 
+The naming of input files  `*_0.4C.yaml` is based on the utilized time step, where `*d*` stands for *dot*, i.e., `0d001s_0.4C.yaml` corresponds to the input file employing $\Delta t = 0.001 \ \mathrm{s}$. 
 Input files for failing time steps, i.e., time steps that are higher than the maximum enabled time step sizes presented in the paper, are also contained within this repository.
 
