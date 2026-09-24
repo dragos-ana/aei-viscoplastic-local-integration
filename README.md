@@ -4,7 +4,7 @@ This repository provides the 4C input files utilized to reproduce the data prese
 
 *D. C. Ana, C. P. Schmidt, W. A. Wall, An Adaptive Strategy for Initial Estimates in the Local Newton–Raphson Integration of (Visco)plasticity Models (submitted as a preprint)*.
 
-The utilized 4C code is available [here]([https://github.com/dragos-ana/4C/tree/add-analysis-suite-for-adaptive-estimate-interpolation]).
+The utilized 4C code is available [here](https://github.com/dragos-ana/4C/tree/add-analysis-suite-for-adaptive-estimate-interpolation).
 
 ## Structure of the repository
 The repository consists of 6 directories containing data from the monotonic loading and non-monotonic loading studies, at the constant logarithmic rates
